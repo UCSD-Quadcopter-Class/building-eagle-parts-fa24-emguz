@@ -82,10 +82,10 @@
 <wire x1="-0.65" y1="-0.625" x2="-0.65" y2="0.625" width="0.1" layer="51"/>
 <text x="-2" y="0.9" size="0.9" layer="25" font="vector">&gt;NAME</text>
 <text x="-2" y="-1.7" size="0.9" layer="27" font="vector">&gt;VALUE</text>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.05" layer="39"/>
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.9" width="0.05" layer="39"/>
-<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.05" layer="39"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="1.9" width="0.05" layer="39"/>
+<wire x1="-2.4" y1="1.4" x2="2.4" y2="1.4" width="0.05" layer="39"/>
+<wire x1="2.4" y1="1.4" x2="2.4" y2="-1.4" width="0.05" layer="39"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.05" layer="39"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.4" width="0.05" layer="39"/>
 </package>
 <package name="RED_LED">
 <description>Chip LED, 2.00 X 1.40 X 1.10 mm body
@@ -144,10 +144,12 @@
 <wire x1="1.44" y1="0.36" x2="1.44" y2="-0.73" width="0.127" layer="51"/>
 <wire x1="1.44" y1="-0.73" x2="-1.45" y2="-0.73" width="0.127" layer="51"/>
 <wire x1="-1.45" y1="-0.73" x2="-1.45" y2="0.36" width="0.127" layer="51"/>
-<wire x1="-1.9" y1="2.9" x2="-1.9" y2="-1.9" width="0.05" layer="39"/>
-<wire x1="-1.9" y1="-1.9" x2="1.9" y2="-1.9" width="0.05" layer="39"/>
-<wire x1="1.9" y1="-1.9" x2="1.9" y2="2.9" width="0.05" layer="39"/>
-<wire x1="1.9" y1="2.9" x2="-1.9" y2="2.9" width="0.05" layer="39"/>
+<wire x1="-2.1" y1="2.9" x2="-2.1" y2="-2.4" width="0.05" layer="39"/>
+<wire x1="-2.1" y1="-2.4" x2="2.1" y2="-2.4" width="0.05" layer="39"/>
+<wire x1="2.1" y1="-2.4" x2="2.1" y2="2.9" width="0.05" layer="39"/>
+<wire x1="2.1" y1="2.9" x2="-2.1" y2="2.9" width="0.05" layer="39"/>
+<text x="-2" y="2.5" size="0.9" layer="25" font="vector">&gt;NAME</text>
+<text x="-2" y="-3" size="0.9" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="IMU">
 <rectangle x1="-1.5" y1="0" x2="1.5" y2="2.5" layer="42"/>
@@ -167,10 +169,10 @@
 <smd name="8" x="1.1125" y="0.5" dx="0.35" dy="0.575" layer="1" rot="R90"/>
 <smd name="11" x="1.1125" y="2" dx="0.35" dy="0.575" layer="1" rot="R90"/>
 <rectangle x1="-0.72" y1="0.78" x2="0.72" y2="1.72" layer="41"/>
-<wire x1="-1.9" y1="2.9" x2="1.9" y2="2.9" width="0.05" layer="39"/>
-<wire x1="1.9" y1="2.9" x2="1.9" y2="-0.4" width="0.05" layer="39"/>
-<wire x1="1.9" y1="-0.4" x2="-1.9" y2="-0.4" width="0.05" layer="39"/>
-<wire x1="-1.9" y1="-0.4" x2="-1.9" y2="2.9" width="0.05" layer="39"/>
+<wire x1="-2.4" y1="3.4" x2="2.4" y2="3.4" width="0.05" layer="39"/>
+<wire x1="2.4" y1="3.4" x2="2.4" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="2.4" y1="-0.9" x2="-2.4" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="-2.4" y1="-0.9" x2="-2.4" y2="3.4" width="0.05" layer="39"/>
 <text x="-2.5" y="3" size="0.9" layer="25" font="vector">&gt;NAME</text>
 <circle x="-1.6" y="2.6" radius="0.1" width="0.1524" layer="27"/>
 </package>
@@ -219,6 +221,8 @@
 <wire x1="-3.5" y1="-2" x2="4" y2="0" width="0.254" layer="94"/>
 <wire x1="4" y1="0" x2="-3.5" y2="2.5" width="0.254" layer="94"/>
 <wire x1="4" y1="2.5" x2="4" y2="-2" width="0.254" layer="94"/>
+<text x="-4" y="4.8" size="0.9" layer="95" font="vector">&gt;NAME</text>
+<text x="-3.8" y="-3.4" size="0.9" layer="96" font="vector">&gt;VALUE</text>
 </symbol>
 <symbol name="N_CHANNEL_MOSFET">
 <pin name="G" x="-3.5" y="0" visible="pad" length="short"/>
@@ -291,7 +295,7 @@
 <gate name="G$1" symbol="RED_LED" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-RED_LED" package="RED_LED">
+<device name="-0805" package="RED_LED">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
@@ -327,9 +331,9 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="IMU" prefix="U">
+<deviceset name="LSM6DSOXTR" prefix="U">
 <gates>
-<gate name="G$1" symbol="IMU" x="-0.2" y="-3.2"/>
+<gate name="G$1" symbol="IMU" x="0" y="0.0025"/>
 </gates>
 <devices>
 <device name="-LGA-14L" package="IMU">
