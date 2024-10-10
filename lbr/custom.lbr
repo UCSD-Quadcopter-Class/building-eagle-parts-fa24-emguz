@@ -149,7 +149,6 @@
 <wire x1="2.4" y1="-2.4" x2="2.4" y2="2.4" width="0.05" layer="39"/>
 <wire x1="2.4" y1="2.4" x2="-2.4" y2="2.4" width="0.05" layer="39"/>
 <text x="-2" y="2.5" size="0.9" layer="25" font="vector">&gt;NAME</text>
-<text x="-2" y="-3" size="0.9" layer="27" font="vector">&gt;VALUE</text>
 </package>
 <package name="IMU_LSM6DS0">
 <rectangle x1="-1.5" y1="0" x2="1.5" y2="2.5" layer="42"/>
