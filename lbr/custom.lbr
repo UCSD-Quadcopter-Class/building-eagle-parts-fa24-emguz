@@ -151,29 +151,29 @@
 <text x="-2" y="2.5" size="0.9" layer="25" font="vector">&gt;NAME</text>
 </package>
 <package name="IMU_LSM6DS0">
-<rectangle x1="-1.5" y1="0" x2="1.5" y2="2.5" layer="42"/>
-<rectangle x1="-1.5" y1="0" x2="1.5" y2="2.5" layer="43"/>
-<smd name="6" x="0" y="0.3875" dx="0.35" dy="0.575" layer="1"/>
-<smd name="5" x="-0.5" y="0.3875" dx="0.35" dy="0.575" layer="1"/>
-<smd name="13" x="0" y="2.1125" dx="0.35" dy="0.575" layer="1"/>
-<smd name="12" x="0.5" y="2.1125" dx="0.35" dy="0.575" layer="1"/>
-<smd name="14" x="-0.5" y="2.1125" dx="0.35" dy="0.575" layer="1"/>
-<smd name="3" x="-1.1125" y="1" dx="0.35" dy="0.575" layer="1" rot="R90"/>
-<smd name="2" x="-1.1125" y="1.5" dx="0.35" dy="0.575" layer="1" rot="R90"/>
-<smd name="4" x="-1.1125" y="0.5" dx="0.35" dy="0.575" layer="1" rot="R90"/>
-<smd name="1" x="-1.1125" y="2" dx="0.35" dy="0.575" layer="1" rot="R90"/>
-<smd name="9" x="1.1125" y="1" dx="0.35" dy="0.575" layer="1" rot="R90"/>
-<smd name="10" x="1.1125" y="1.5" dx="0.35" dy="0.575" layer="1" rot="R90"/>
-<smd name="8" x="1.1125" y="0.5" dx="0.35" dy="0.575" layer="1" rot="R90"/>
-<smd name="11" x="1.1125" y="2" dx="0.35" dy="0.575" layer="1" rot="R90"/>
-<rectangle x1="-0.72" y1="0.78" x2="0.72" y2="1.72" layer="41"/>
-<wire x1="-2.4" y1="3.4" x2="2.4" y2="3.4" width="0.05" layer="39"/>
-<wire x1="2.4" y1="3.4" x2="2.4" y2="-0.9" width="0.05" layer="39"/>
-<wire x1="2.4" y1="-0.9" x2="-2.4" y2="-0.9" width="0.05" layer="39"/>
-<wire x1="-2.4" y1="-0.9" x2="-2.4" y2="3.4" width="0.05" layer="39"/>
-<text x="-2.5" y="3" size="0.9" layer="25" font="vector">&gt;NAME</text>
-<circle x="-1.6" y="2.6" radius="0.1" width="0.1524" layer="27"/>
-<smd name="7" x="0.5" y="0.3875" dx="0.35" dy="0.575" layer="1"/>
+<rectangle x1="-1.5" y1="-1.25" x2="1.5" y2="1.25" layer="42"/>
+<rectangle x1="-1.5" y1="-1.25" x2="1.5" y2="1.25" layer="43"/>
+<smd name="6" x="0" y="-0.8625" dx="0.35" dy="0.575" layer="1"/>
+<smd name="5" x="-0.5" y="-0.8625" dx="0.35" dy="0.575" layer="1"/>
+<smd name="13" x="0" y="0.8625" dx="0.35" dy="0.575" layer="1"/>
+<smd name="12" x="0.5" y="0.8625" dx="0.35" dy="0.575" layer="1"/>
+<smd name="14" x="-0.5" y="0.8625" dx="0.35" dy="0.575" layer="1"/>
+<smd name="3" x="-1.1125" y="-0.25" dx="0.35" dy="0.575" layer="1" rot="R90"/>
+<smd name="2" x="-1.1125" y="0.25" dx="0.35" dy="0.575" layer="1" rot="R90"/>
+<smd name="4" x="-1.1125" y="-0.75" dx="0.35" dy="0.575" layer="1" rot="R90"/>
+<smd name="1" x="-1.1125" y="0.75" dx="0.35" dy="0.575" layer="1" rot="R90"/>
+<smd name="9" x="1.1125" y="-0.25" dx="0.35" dy="0.575" layer="1" rot="R90"/>
+<smd name="10" x="1.1125" y="0.25" dx="0.35" dy="0.575" layer="1" rot="R90"/>
+<smd name="8" x="1.1125" y="-0.75" dx="0.35" dy="0.575" layer="1" rot="R90"/>
+<smd name="11" x="1.1125" y="0.75" dx="0.35" dy="0.575" layer="1" rot="R90"/>
+<rectangle x1="-0.72" y1="-0.47" x2="0.72" y2="0.47" layer="41"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.05" layer="39"/>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.9" width="0.05" layer="39"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.05" layer="39"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="1.9" width="0.05" layer="39"/>
+<text x="-2.5" y="1.75" size="0.9" layer="25" font="vector">&gt;NAME</text>
+<circle x="-1.6" y="1.35" radius="0.1" width="0.1524" layer="27"/>
+<smd name="7" x="0.5" y="-0.8625" dx="0.35" dy="0.575" layer="1"/>
 </package>
 </packages>
 <symbols>
