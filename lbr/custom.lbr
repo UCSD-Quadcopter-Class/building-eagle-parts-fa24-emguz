@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -87,7 +87,7 @@
 <wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.05" layer="39"/>
 <wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.4" width="0.05" layer="39"/>
 </package>
-<package name="RED_LED">
+<package name="LED_0805">
 <description>Chip LED, 2.00 X 1.40 X 1.10 mm body
  &lt;p&gt;Chip LED package with body size 2.00 X 1.40 X 1.10 mm&lt;/p&gt;</description>
 <smd name="C" x="1.45" y="0" dx="1.55" dy="1.2" layer="1" rot="R180"/>
@@ -151,7 +151,7 @@
 <text x="-2" y="2.5" size="0.9" layer="25" font="vector">&gt;NAME</text>
 <text x="-2" y="-3" size="0.9" layer="27" font="vector">&gt;VALUE</text>
 </package>
-<package name="IMU">
+<package name="IMU_LSM6DS0">
 <rectangle x1="-1.5" y1="0" x2="1.5" y2="2.5" layer="42"/>
 <rectangle x1="-1.5" y1="0" x2="1.5" y2="2.5" layer="43"/>
 <smd name="6" x="0" y="0.3875" dx="0.35" dy="0.575" layer="1"/>
@@ -192,7 +192,7 @@
 <wire x1="1.387678125" y1="0.91605625" x2="1.770371875" y2="-0.041971875" width="0.254" layer="94"/>
 <text x="-2.5" y="1.5" size="0.9" layer="95" font="vector">&gt;NAME</text>
 </symbol>
-<symbol name="RED_LED">
+<symbol name="LED_0805">
 <pin name="C" x="6.42" y="0" visible="pin" length="short" rot="R180"/>
 <pin name="A" x="-6.22" y="0" visible="pin" length="short"/>
 <wire x1="-3.616178125" y1="4.091046875" x2="-3.616178125" y2="3.09009375" width="0.254" layer="94"/>
@@ -289,10 +289,10 @@
 </deviceset>
 <deviceset name="LED" prefix="D" uservalue="yes">
 <gates>
-<gate name="G$1" symbol="RED_LED" x="0" y="0"/>
+<gate name="G$1" symbol="LED_0805" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-RED_0805" package="RED_LED">
+<device name="-RED_0805" package="LED_0805">
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
@@ -333,7 +333,7 @@
 <gate name="G$1" symbol="IMU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-LSM6DSOXTR" package="IMU">
+<device name="-LSM6DSOXTR" package="IMU_LSM6DS0">
 <connects>
 <connect gate="G$1" pin="CS" pad="12"/>
 <connect gate="G$1" pin="GND" pad="6 7"/>
